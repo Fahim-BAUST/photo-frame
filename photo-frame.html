@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>photo</title>
+
+    <style>
+        .photo img{
+            width: 300px;
+            height: 200px;
+            border: 10px solid goldenrod;
+            padding: 20px 20px 20px 20px;
+            margin: 20px 20px 20px 20px;
+            
+            
+        }
+
+        .f{
+            position: relative;
+            animation-name: example;
+            animation-duration: 5s;
+            
+            animation-iteration-count: infinite;
+        }
+
+        .photo:hover img{
+            transform: rotate(360deg);
+            transition: transform 3s;
+        }
+
+        .frame{
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        @keyframes example {
+
+            0%   {background-color:red; left:0px; top:0px;}
+            25%  {background-color:yellow; left:200px; top:0px;}
+            50%  {background-color:blue; left:200px; top:200px;}
+            75%  {background-color:green; left:0px; top:200px;}
+            100% {background-color:red; left:0px; top:0px;}
+                        
+        }
+
+
+    </style>
+
+</head>
+<body>
+
+
+    <div  class="frame">
+
+        <div class="photo">
+
+            <img class="a" src="images/bird-1045954_1280.jpg" alt="">
+
+        </div>
+
+        <div class="photo">
+            <img class="f" src="images/biteable-living-room.jpg" alt="">
+
+        </div>
+
+        <div class="photo">
+            <img src="images/biteable-pink-fence.jpg" alt="">
+
+        </div>
+
+        <div class="photo">
+            <img class="f"  src="images/butterfly-1127666_1280.jpg" alt="">
+
+        </div>
+
+        <div class="photo">
+            <img src="images/california-210913_1280.jpg" alt="">
+
+        </div>
+
+        <div class="photo">
+            <img class="f"  src="images/dandelion-445228_1280.jpg" alt="">
+
+        </div>
+
+        <div class="photo">
+            <img src="images/fall-1072821_1280.jpg" alt="">
+
+        </div>
+
+        <div class="photo">
+            <img class="f"  src="images/istockphoto-1162998855-1024x1024.jpg" alt="">
+
+        </div>
+
+        <div class="photo">
+            <img src="images/rose-174817_1280.jpg" alt="">
+
+        </div>
+
+        <div class="photo">
+            <img class="f"  src="images/scotland-1761292_1280.jpg" alt="">
+        </div>
+
+        <div class="photo">
+            <img src="images/tree-736885_1280.jpg" alt="">
+        </div>
+
+        <div class="photo">
+            <img class="f"  src="images/rose-174817_1280.jpg" alt="">
+        </div>
+        
+    </div>
+
+  
+</body>
+</html>
