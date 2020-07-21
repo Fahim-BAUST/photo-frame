@@ -22,7 +22,7 @@
 
         .photo:hover img{
             transform: rotate(360deg);
-            transform: scale(0.5);
+            transform: scale(1.5);
             transition: transform 1s;
             position: relative;
             animation-name: example;
@@ -38,11 +38,11 @@
 
         @keyframes example {
 
-            0%   {background-color:red; left:0px; top:0px;}
+            0%   {background-color:red; left:-100px; top:0px;}
             25%  {background-color:yellow; left:100px; top:0px;}
             50%  {background-color:blue; left:100px; top:100px;}
-            75%  {background-color:green; left:0px; top:100px;}
-            100% {background-color:red; left:0px; top:0px;}
+            75%  {background-color:green; left:-100px; top:100px;}
+            100% {background-color:red; left:-100px; top:0px;}
                         
         }
 
